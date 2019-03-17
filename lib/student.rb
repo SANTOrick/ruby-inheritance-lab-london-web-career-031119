@@ -5,5 +5,7 @@ class Student < User
 
 def learn(argument)
   @@knowledge << argument
+end
+
 
 end
