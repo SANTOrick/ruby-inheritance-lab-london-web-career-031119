@@ -7,5 +7,9 @@ def learn(argument)
   @@knowledge << argument
 end
 
+def knowledge
+  @@knowledge
+end
+
 
 end
