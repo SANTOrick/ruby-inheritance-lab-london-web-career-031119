@@ -7,6 +7,6 @@ class Teacher < User
 def teach
   x = knowledge.length
   y = rand(1..x)
-  knowledge(x)
+  knowledge(y)
 
 end
