@@ -7,7 +7,7 @@ class Teacher < User
 def teach
   x = @@KNOWLEDGE.length
   y = rand(1..x)
-  @@KNOWLEDGE(y)
+  @@KNOWLEDGE.shift(y)
 end
 
 end
