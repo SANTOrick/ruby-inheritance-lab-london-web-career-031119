@@ -7,3 +7,5 @@ class Teacher < User
 def teach
   @@KNOWLEDGE.shift(y)
 end
+
+end
