@@ -8,11 +8,11 @@ class Student < User
   end
 
 def learn(argument)
-  @@knowledge << argument
+  @knowledge << argument
 end
 
 def knowledge
-  @@knowledge
+  @knowledge
 end
 
 
